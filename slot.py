@@ -10,8 +10,8 @@ root=tk.Tk()
 #ウィンドウを閉じるボタン
 def close_window():
     root.destroy()
-clean_btn=tk.Button(root,text="close",command=close_window)
-clean_btn.place(x=0,y=0)
+    clean_btn=tk.Button(root,text="close",command=close_window)
+    clean_btn.place(x=0,y=0)
 
 
 stop_number=[0]*3
