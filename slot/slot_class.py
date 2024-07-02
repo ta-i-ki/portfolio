@@ -6,7 +6,7 @@ class WindowCreate():
     def __init__(self):
         root=tk.Tk()
         root.geometry('')
-        root.resizeable(False,False)
+        root.resizable(False,False)
         root.mainloop()
 
 
